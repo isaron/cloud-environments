@@ -157,7 +157,7 @@ chartmuseumServiceLink:
 monocular:
   enabled: true
   ingress:
-    enabled: false
+    enabled: true
   api:
     livenessProbe:
       initialDelaySeconds: 360
