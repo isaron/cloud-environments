@@ -255,7 +255,7 @@ jenkins:
   # ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#nodeselector
   # ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#taints-and-tolerations-beta-feature
     NodeSelector: 
-      label: kubeadm.beta.kubernetes.io/role=master
+      Role: master
     Tolerations: {}
   
     Ingress:
